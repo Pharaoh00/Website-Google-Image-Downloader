@@ -2,6 +2,7 @@
 ## Um simples script para download imagens de websites e google image.
 
 Requer **requests**
+
 Requer **BeautifoulSoup**
 
 ###### Para instalar requests
@@ -17,6 +18,7 @@ pip install beautifulsoup4
 Os comentarios estão em em Português Brasil, em algum momento, quando eu estiver feliz com os resultados do script, estarei traduzindo os comentarios para Inglês.
 
 Como utilizar(Na versão atual V0.3):
+
 em url = "https://www.google.com/search?..." copie e cole a url desejada.
 Parse_Image() aceita dois modos:
 ```
