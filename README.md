@@ -3,14 +3,14 @@
 
 Requer **requests**
 
-Requer **BeautifoulSoup**
+Requer **BeautifulSoup**
 
 ###### Para instalar requests
 ```
 pip install requests
 ```
 
-###### Para instalar BeautifoulSoup
+###### Para instalar BeautifulSoup
 ```
 pip install beautifulsoup4
 ```
