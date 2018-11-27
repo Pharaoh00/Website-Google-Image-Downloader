@@ -19,7 +19,7 @@ Os comentarios estão em em Português Brasil, em algum momento, quando eu estiv
 
 Como utilizar(Na versão atual V0.3):
 
-em url = "https://www.google.com/search?..." copie e cole a url desejada.
+Em url = "https://www.google.com/search?..." copie e cole a url desejada. (Linha 190 no final do arquivo)
 Parse_Image() aceita dois modos:
 ```
     mode = NORMAL ou GOOGLE
