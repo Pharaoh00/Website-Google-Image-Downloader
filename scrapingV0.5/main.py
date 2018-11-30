@@ -27,7 +27,7 @@ def main():
     #urls_link = split_seq(urls_link, number)
 
     p = Pool(10)
-    record = p.map(download_File, urls_link)
+    record = p.map(download_File, iter(urls_link))
     p.terminate()
     p.join()
 
