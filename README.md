@@ -17,7 +17,7 @@ pip install beautifulsoup4
 
 Os comentarios estão em em Português Brasil, em algum momento, quando eu estiver feliz com os resultados do script, estarei traduzindo os comentarios para Inglês.
 
-Como utilizar(Na versão atual v1.0):
+### Como utilizar(Na versão atual v1.0):
 
 Em main.py
 Em url = "" 
