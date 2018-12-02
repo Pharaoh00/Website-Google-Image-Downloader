@@ -17,20 +17,21 @@ pip install beautifulsoup4
 
 Os comentarios estão em em Português Brasil, em algum momento, quando eu estiver feliz com os resultados do script, estarei traduzindo os comentarios para Inglês.
 
-Como utilizar(Na versão atual V0.3):
+Como utilizar(Na versão atual v1.0):
 
-Em url = "https://www.google.com/search?..." copie e cole a url desejada. (Linha 190 no final do arquivo)
+Em main.py
+Em url = "" 
+Adicione a url desejada.
 
-Parse_Image() aceita dois modos:
-```
-    mode = NORMAL ou GOOGLE
-    NORMAL significa que o site desejado não é o google, qualquer outro site.
-    (PS: As imagens podem ser procurada por simples "img" / "src")
-    Google significa que o site desajado é o google imagens.
-    (PS: As imagens são procurada por "div" "class: rg_meta notranslate",
-    essa classe contem todas as informações do site da imagem, inclusive a url,
-    a classe é na verdade um json, dentro do json gerado a url da imagem esta 
-    em ["ou"].
-```
-Logging será a forma principal de output o que foi baixado, qual a url da image, e qual o nome do arquivo salvo.
-Acredito que eu não tenha descoberto todos os erros possíveis, mas os erros que já foram dados estão, pelo menos, output para o arquivo de log.
+Em home = ""
+Adicione a homepage do website.
+
+A versão atual utilizada somente requests para conseguir baixar as imagens. Muitos sites utilizam-se se js scripts para autenticar o usuário, por isso sites como CNN, Globo.com, Wikipedia, Terraria Wiki acabam não deixando a imagem ser baixar com esse script.
+Felizmente há alguns métodos, como Selenium, para conseguir baixar em sites como esses, mas nesse momento, essa ferramenta em questão, será usada para baixar imagens do google image, e em alguns outros sites (por sorte consigo baixar em todos que preciso).
+
+Há se fazer:
+Adicionar Selenium como força de download. Adicionando versatilidade ao script.
+Adicionar async nos requests para pegar as urls das imagens.
+Adicionar uma forma eficaz de output o que aconteceu no download.
+(PS: Pretendo usar um json, como agora é uma classe, posso estar append todas as urls em algum formato e criando um json para informar)
+Adicionar barra de progresso, em vez de mensagens sem sentido rolando na tela.
