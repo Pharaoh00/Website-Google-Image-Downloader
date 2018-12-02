@@ -24,8 +24,8 @@ def main():
 if __name__ == "__main__":
     
     start = time.time()
-    url = "http://dofuswiki.wikia.com/wiki/Profession"
-    home = "https://stardewvalleywiki.com"
+    url = ""
+    home = ""
     main()
     end = time.time()
     print("Tempo Total {}".format((end-start)/60))
