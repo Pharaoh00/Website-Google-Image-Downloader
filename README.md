@@ -31,7 +31,10 @@ Felizmente há alguns métodos, como Selenium, para conseguir baixar em sites co
 
 Há se fazer:
 Adicionar Selenium como força de download. Adicionando versatilidade ao script.
+
 Adicionar async nos requests para pegar as urls das imagens.
+
 Adicionar uma forma eficaz de output o que aconteceu no download.
 (PS: Pretendo usar um json, como agora é uma classe, posso estar append todas as urls em algum formato e criando um json para informar)
+
 Adicionar barra de progresso, em vez de mensagens sem sentido rolando na tela.
