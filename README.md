@@ -32,7 +32,7 @@ A versão atual utiliza somente requests para conseguir baixar as imagens. Muito
 Felizmente há alguns métodos, como Selenium, para conseguir baixar em sites como esses, mas nesse momento, essa ferramenta em questão, será usada para baixar imagens do google image, e em alguns outros sites (por sorte consigo baixar em todos que preciso).
 
 ### Há se fazer:
-Adicionar Selenium como força de download. Adicionando versatilidade ao script.
+Adicionar Selenium como forma de download. Adicionando versatilidade ao script.
 
 Adicionar async nos requests para pegar as urls das imagens.
 
